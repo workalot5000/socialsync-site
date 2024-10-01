@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Grow your social media with engagement boosting services.">
-    <title>SocialSync.ng - Social Media Engagement Services</title>
+    <title>SocialSync.ng - Boost Your Social Media</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-    <!-- Header Section -->
+    <!-- Header -->
     <header class="main-header">
         <div class="container">
             <h1>SocialSync.ng</h1>
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
                     <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#funding">Fund Account</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#signup" class="btn-signup">Sign Up</a></li>
                 </ul>
             </nav>
         </div>
@@ -29,27 +32,40 @@
         <div class="container">
             <h2>Boost Your Social Media Engagement</h2>
             <p>Get more likes, followers, and engagement across all platforms.</p>
-            <a href="#services" class="cta-btn">Explore Services</a>
+            <a href="#signup" class="cta-btn">Sign Up Now</a>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
+    <!-- Login/Sign Up Section -->
+    <section id="login" class="login-section">
         <div class="container">
-            <h2>Our Services</h2>
-            <div class="service-cards">
-                <div class="service-card">
-                    <h3>Instagram Growth</h3>
-                    <p>Get real followers and likes that boost your Instagram presence.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Facebook Engagement</h3>
-                    <p>Increase post likes, shares, and followers on your Facebook account.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Twitter Retweets & Follows</h3>
-                    <p>Grow your Twitter influence with retweets and real followers.</p>
-                </div>
+            <div class="login-box">
+                <h2>Login</h2>
+                <form>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit" class="btn-login">Login</button>
+                </form>
+                <p>Don't have an account? <a href="#signup">Sign Up</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup" class="signup-section">
+        <div class="container">
+            <div class="signup-box">
+                <h2>Create Account</h2>
+                <form>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit" class="btn-signup">Sign Up</button>
+                </form>
             </div>
         </div>
     </section>
@@ -61,7 +77,7 @@
             <div class="pricing-cards">
                 <div class="pricing-card">
                     <h3>Starter</h3>
-                    <p>$50 / month</p>
+                    <p>$10 / month</p>
                     <ul>
                         <li>500 Likes</li>
                         <li>300 Followers</li>
@@ -70,7 +86,7 @@
                 </div>
                 <div class="pricing-card">
                     <h3>Pro</h3>
-                    <p>$100 / month</p>
+                    <p>$30 / month</p>
                     <ul>
                         <li>2,000 Likes</li>
                         <li>1,500 Followers</li>
@@ -79,6 +95,46 @@
                 </div>
                 <div class="pricing-card">
                     <h3>Enterprise</h3>
-                    <p>$150 / month</p>
+                    <p>$50 / month</p>
                     <ul>
                         <li>5,000 Likes</li>
+                        <li>3,000 Followers</li>
+                        <li>Dedicated Account Manager</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Account Funding Section -->
+    <section id="funding" class="funding">
+        <div class="container">
+            <h2>Fund Your Account</h2>
+            <p>Quickly add funds to your account to boost your social media engagement.</p>
+            <button class="cta-btn">Fund Now</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email us at: <a href="mailto:support@socialsync.ng">support@socialsync.ng</a></p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SocialSync.ng. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
